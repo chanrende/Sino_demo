@@ -13,6 +13,7 @@ public class ChatGPTService {
 
     public Mono<String> askQuestion(String question) {
         // Implementiere hier den Code, um die Anfrage zu senden und die Antwort als Mono<String> zurückzugeben
+        
         return null;
     }
 

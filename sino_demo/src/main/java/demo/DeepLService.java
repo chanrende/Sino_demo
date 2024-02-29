@@ -15,6 +15,7 @@ public class DeepLService {
 
     public Mono<String> translateText(String text, String targetLanguage) {
         // Implementiere hier den Code, um die Übersetzung anzufordern und als Mono<String> zurückzugeben
+        
         return null;
     }
 }

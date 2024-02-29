@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ChatGPT und DeepL Integration</title>
+</head>
+<body>
+    <h2>Frage an ChatGPT stellen</h2>
+    <form th:action="@{/frage}" method="post">
+        <div>
+            <label for="frage">Deine Frage:</label>
+            <input type="text" id="frage" name="frage" />
+        </div>
+        <div>
+            <button type="submit">Frage senden</button>
+        </div>
+    </form>
+
+    <!-- Hier kannst du später das Ergebnis anzeigen -->
+    <div th:if="${ antwort != null}">
+        <h3>Antwort von ChatGPT:</h3>
+        <p th:text="${antwort}"></p>
+    </div>
+</body>
+</html>
