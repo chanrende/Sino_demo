@@ -1,0 +1,12 @@
+body {
+    background-color: #f0f0f0;
+}
+.container {
+    display: flex;
+}
+.column {
+    flex: 1; /* Bewirkt, dass beide Spalten den verfügbaren Raum gleichmäßig aufteilen */
+    padding: 10px;
+}
+
+/* Weitere spezifische Styles für home.html */
